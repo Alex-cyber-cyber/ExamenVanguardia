@@ -88,6 +88,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "FoodTrack.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FoodTrack.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FoodTrack.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodTrack.Application.dll": {}
+        }
+      },
+      "FoodTrack.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FoodTrack.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodTrack.Domain.dll": {}
+        }
+      },
+      "FoodTrack.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FoodTrack.Application": "1.0.0",
+          "FoodTrack.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FoodTrack.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodTrack.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -439,10 +476,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "FoodTrack.Application/1.0.0": {
+      "type": "project",
+      "path": "../FoodTrack.Application/FoodTrack.Application.csproj",
+      "msbuildProject": "../FoodTrack.Application/FoodTrack.Application.csproj"
+    },
+    "FoodTrack.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FoodTrack.Domain/FoodTrack.Domain.csproj",
+      "msbuildProject": "../FoodTrack.Domain/FoodTrack.Domain.csproj"
+    },
+    "FoodTrack.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../FoodTrack.Infrastructure/FoodTrack.Infrastructure.csproj",
+      "msbuildProject": "../FoodTrack.Infrastructure/FoodTrack.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FoodTrack.Application >= 1.0.0",
+      "FoodTrack.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -477,7 +531,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Alexander Espinal\\Desktop\\ExamenVanguardia\\FoodTrack\\FoodTrack.Application\\FoodTrack.Application.csproj": {
+              "projectPath": "C:\\Users\\Alexander Espinal\\Desktop\\ExamenVanguardia\\FoodTrack\\FoodTrack.Application\\FoodTrack.Application.csproj"
+            },
+            "C:\\Users\\Alexander Espinal\\Desktop\\ExamenVanguardia\\FoodTrack\\FoodTrack.Infrastructure\\FoodTrack.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Alexander Espinal\\Desktop\\ExamenVanguardia\\FoodTrack\\FoodTrack.Infrastructure\\FoodTrack.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

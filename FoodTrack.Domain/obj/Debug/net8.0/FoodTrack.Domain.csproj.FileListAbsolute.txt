@@ -1,0 +1,12 @@
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\bin\Debug\net8.0\FoodTrack.Domain.deps.json
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\bin\Debug\net8.0\FoodTrack.Domain.dll
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\bin\Debug\net8.0\FoodTrack.Domain.pdb
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\obj\Debug\net8.0\FoodTrack.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\obj\Debug\net8.0\FoodTrack.Domain.AssemblyInfoInputs.cache
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\obj\Debug\net8.0\FoodTrack.Domain.AssemblyInfo.cs
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\obj\Debug\net8.0\FoodTrack.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\obj\Debug\net8.0\FoodTrack.Domain.sourcelink.json
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\obj\Debug\net8.0\FoodTrack.Domain.dll
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\obj\Debug\net8.0\refint\FoodTrack.Domain.dll
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\obj\Debug\net8.0\FoodTrack.Domain.pdb
+C:\Users\Alexander Espinal\Desktop\ExamenVanguardia\FoodTrack\FoodTrack.Domain\obj\Debug\net8.0\ref\FoodTrack.Domain.dll

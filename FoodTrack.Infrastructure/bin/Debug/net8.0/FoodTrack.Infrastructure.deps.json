@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FoodTrack.Infrastructure/1.0.0": {
+        "dependencies": {
+          "FoodTrack.Application": "1.0.0",
+          "FoodTrack.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FoodTrack.Infrastructure.dll": {}
+        }
+      },
+      "FoodTrack.Application/1.0.0": {
+        "dependencies": {
+          "FoodTrack.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FoodTrack.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FoodTrack.Domain/1.0.0": {
+        "runtime": {
+          "FoodTrack.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FoodTrack.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FoodTrack.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FoodTrack.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

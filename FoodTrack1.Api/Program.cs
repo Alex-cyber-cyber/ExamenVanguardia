@@ -1,15 +1,23 @@
+using FoodTrack.Application.Abstractions;
+using FoodTrack.Application.UseCases;
+using FoodTrack.Infrastructure.Repositories.InMemory;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+builder.Services.AddScoped<CrearOrdenService>();
+builder.Services.AddScoped<CambiarEstadoOrdenService>();
+
+builder.Services.AddSingleton<IFoodTruckRepository, InMemoryFoodTruckRepository>();
+builder.Services.AddSingleton<IOrderRepository, InMemoryOrderRepository>();
+builder.Services.AddSingleton<IEventLogRepository, InMemoryEventLogRepository>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

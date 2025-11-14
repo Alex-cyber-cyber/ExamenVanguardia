@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FoodTrack.Domain\FoodTrack.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
